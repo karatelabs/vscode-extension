@@ -1,0 +1,1 @@
+# Karate VS Code Extension
