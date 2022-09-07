@@ -29,6 +29,8 @@
 <td>
 <img src="resources/3-karate-sign-in.png"/>
 </td>
+</tr>
+<tr>
 <td>
 <img src="resources/4-return.png"/>
 </td>
