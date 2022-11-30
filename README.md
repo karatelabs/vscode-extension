@@ -54,8 +54,8 @@ See a 1 minute video [here](https://youtu.be/_BlUgR9noEI).
 
 <table>
 <tr>
-<td><a href="https://youtu.be/_BlUgR9noEI"><img height="300" src="https://user-images.githubusercontent.com/915480/204463528-f7445fbb-67d1-4968-91e3-e6ae68499ea0.png"></a></td>
-<td><a href="https://youtu.be/_BlUgR9noEI"><img height="300" src="https://user-images.githubusercontent.com/915480/204464214-010aaf5c-84d4-4e89-b751-f7db76dd3f9f.png"></a></td>
+<td><a href="https://youtu.be/_BlUgR9noEI"><img height="250" src="https://user-images.githubusercontent.com/915480/204463528-f7445fbb-67d1-4968-91e3-e6ae68499ea0.png"></a></td>
+<td><a href="https://youtu.be/_BlUgR9noEI"><img height="250" src="https://user-images.githubusercontent.com/915480/204464214-010aaf5c-84d4-4e89-b751-f7db76dd3f9f.png"></a></td>
 </tr>
 </table>
 
