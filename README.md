@@ -40,9 +40,15 @@ No extra installation or setup is required. Everything needed to write and run K
 </table>
 
 ## How to Sign In
-Use the "Accounts" toolbar in VS Code (usually on the bottom left). See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
+* Use the "Accounts" toolbar in VS Code (usually on the bottom left)
+* Once signed-in, you will not be prompted again for 30 days
+* New subscribers will be taken through a purchase flow
+* Pricing information can be [found on our website]([here](https://www.karatelabs.io/plugins))
+* [Contact us](https://www.karatelabs.io/karate-labs-contact) if you need more information
 
-<a href="https://youtu.be/p3QDyXK4ABo"><img height="300" src="https://user-images.githubusercontent.com/915480/204451498-5e297c5b-2c93-46e9-9fd3-360a6405fc66.png"></a>
+See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
+
+<a href="https://youtu.be/p3QDyXK4ABo"><img height="250" src="https://user-images.githubusercontent.com/915480/204451498-5e297c5b-2c93-46e9-9fd3-360a6405fc66.png"></a>
 
 ## Debug
 * In Pro mode, a `Debug` codelens appears next to the `Run >>` option.
@@ -54,8 +60,8 @@ See a 1 minute video [here](https://youtu.be/_BlUgR9noEI).
 
 <table>
 <tr>
-<td><a href="https://youtu.be/_BlUgR9noEI"><img height="250" src="https://user-images.githubusercontent.com/915480/204463528-f7445fbb-67d1-4968-91e3-e6ae68499ea0.png"></a></td>
-<td><a href="https://youtu.be/_BlUgR9noEI"><img height="250" src="https://user-images.githubusercontent.com/915480/204464214-010aaf5c-84d4-4e89-b751-f7db76dd3f9f.png"></a></td>
+<td><a href="https://youtu.be/_BlUgR9noEI"><img height="200" src="https://user-images.githubusercontent.com/915480/204463528-f7445fbb-67d1-4968-91e3-e6ae68499ea0.png"></a></td>
+<td><a href="https://youtu.be/_BlUgR9noEI"><img height="200" src="https://user-images.githubusercontent.com/915480/204464214-010aaf5c-84d4-4e89-b751-f7db76dd3f9f.png"></a></td>
 </tr>
 </table>
 
