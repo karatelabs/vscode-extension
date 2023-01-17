@@ -119,6 +119,9 @@ See video [here](https://youtu.be/_2iKwyALkvw).
 
 <img height="350" src="https://user-images.githubusercontent.com/915480/204512747-b5f1b886-15be-42d0-b974-91ec8f78f98d.gif">
 
+# Karate Flow
+Coming Soon
+
 # Coming Soon
 * IntelliSense & better Auto-complete
 * Improved syntax validation
