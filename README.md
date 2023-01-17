@@ -73,6 +73,9 @@ See a 1 minute video [here](https://youtu.be/_BlUgR9noEI).
 
 <img height="350" src="https://user-images.githubusercontent.com/915480/204474431-3a77f7ae-68fe-4a5b-b0bd-8f5c137ab58b.gif">
 
+## Inline Reports
+Coming Soon
+
 ## Run Mode
 Easily switch run-mode.
 
