@@ -37,12 +37,26 @@ No extra installation or setup is required. Everything needed to write and run K
 <td><a href="#openapi-import">OpenAPI / Swagger Import</a></td>
 <td><a href="#curl-and-har-import">cURL and HAR Import</a></td>
 <tr>
+<tr>
+<td><a href="#inline-reports">Inline Reports</a></td>
+</tr>
 </table>
+
+# K-Flow
+K-Flow is an enterprise solution that solves for API documentation, with a focus on end-user workflows. The highlights are:
+* A no-code interface for creating, editing and previewing these flows
+* First-class support for OpenAPI and Swagger
+* Export to pure-HTML for publishing or internal-collaboration
+* Showing how multiple APIs are called in sequence as a business workflow
+* Showing variations of a given API due to business-rules
+
+K-Flow is a separate upgrade from Karate Pro. For more details on pricing and features, [refer to our website](https://www.karatelabs.io/k-flow).
 
 ## How to Sign In
 * Use the "Accounts" toolbar in VS Code (usually on the bottom left)
 * Once signed-in, you will not be prompted again for 30 days
 * New subscribers will be taken through a purchase flow
+* You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io)
 * Pricing information can be [found on our website](https://www.karatelabs.io/plugins)
 * [Contact us](https://www.karatelabs.io/karate-labs-contact) if you need more information
 
@@ -72,9 +86,6 @@ See a 1 minute video [here](https://youtu.be/_BlUgR9noEI).
 ## JSON Formatting
 
 <img height="350" src="https://user-images.githubusercontent.com/915480/204474431-3a77f7ae-68fe-4a5b-b0bd-8f5c137ab58b.gif">
-
-## Inline Reports
-Coming Soon
 
 ## Run Mode
 Easily switch run-mode.
@@ -122,18 +133,22 @@ See video [here](https://youtu.be/_2iKwyALkvw).
 
 <img height="350" src="https://user-images.githubusercontent.com/915480/204512747-b5f1b886-15be-42d0-b974-91ec8f78f98d.gif">
 
-# Karate Flow
-Coming Soon
+## Inline Reports
+View summary and Feature / Scenario reports without leaving your IDE. This is especially useful when using a remote development environment such as [GitHub Codespaces](https://github.com/features/codespaces).
+
+<img height="350" src="https://user-images.githubusercontent.com/915480/214324137-e522b43a-93fa-4688-878b-29272ec01715.gif">
+
+Watch [this video](https://youtu.be/aJ7WdHM1t94?t=40) to get a feel of the enhanced Developer-Experience.
+
+You can also see all HTTP calls made during a test.
+
+<img height="350" src="https://user-images.githubusercontent.com/915480/214325821-96d480c5-6dba-4459-9f93-0685caea60a2.gif">
 
 # Coming Soon
-* IntelliSense & better Auto-complete
+* Better IntelliSense & Auto-complete
 * Improved syntax validation
-* API Documentation
-  * Authoring
-  * Publishing
-* Extra reports
-  * HTTP request / response
-  * HTTP API coverage
+* Reports
+  * API coverage
 * No-code
   * API request builder
   * API mock builder
