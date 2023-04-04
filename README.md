@@ -10,6 +10,7 @@ No extra installation or setup is required. Everything needed to write and run K
 # Core Features
 * API and UI / browser automation
 * Syntax coloring
+* Code Formatting
 * Outline view
 * Embedded JS highlighting
 * Run test (CodeLens)
