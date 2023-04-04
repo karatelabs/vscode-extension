@@ -8,7 +8,7 @@ This extension is brought to you by [Karate Labs](https://karatelabs.io). Find i
 No extra installation or setup is required. Everything needed to write and run Karate scripts is included.
 
 # Core Features
-* API and UI / browser automation
+* [API testing](https://karatelabs.github.io/karate/), [API mocks](https://karatelabs.github.io/karate/karate-netty/), and [UI / web-browser automation](https://karatelabs.github.io/karate/karate-core/)
 * Syntax coloring
 * Code Formatting
 * Outline view
@@ -16,10 +16,10 @@ No extra installation or setup is required. Everything needed to write and run K
 * Run test (CodeLens)
 * Color log output
 * One-click to open HTML report
-* Extra run modes
+* Extra run modes (configurable via extension settings)
   * Maven
-  * Custom (e.g. for Gradle)
-* Works in remote environments (e.g. GitHub Codespaces, Gitpod)
+  * Custom (e.g. for Gradle or [stand-alone JAR](https://karatelabs.github.io/karate/karate-netty/#standalone-jar))
+* Works in remote environments (e.g. [GitHub Codespaces](https://github.com/karatelabs/karate/wiki/Karate-in-GitHub-Codespaces), [Gitpod](https://www.gitpod.io/), [Devcontainers / Docker](https://code.visualstudio.com/docs/devcontainers/containers))
 
 # Pro Upgrade
 <table>
