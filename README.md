@@ -54,7 +54,8 @@ K-Flow is an enterprise solution that solves for API documentation, with a focus
 K-Flow is a separate upgrade from Karate Pro. For more details on pricing and features, [refer to our website](https://www.karatelabs.io/k-flow).
 
 ## How to Sign In
-* Use the "Accounts" toolbar in VS Code (usually on the bottom left)
+* Use the "Accounts" toolbar in VS Code (usually on the bottom left, see screenshot below)
+  * If you don't see the option to `Sign in with Karate` make sure you have opened a folder with a `*.feature` file in it to activate the plugin
 * Once signed-in, you will not be prompted again for 30 days
 * New subscribers will be taken through a purchase flow
 * You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io)
