@@ -56,6 +56,9 @@ K-Flow is a separate upgrade from Karate Pro. For more details on pricing and fe
 ## How to Sign In
 * Use the "Accounts" toolbar in VS Code (usually on the bottom left, see screenshot below)
   * If you don't see the option to `Sign in with Karate` make sure you have opened a folder with a `*.feature` file in it to activate the plugin
+  * It also can happen that another plugin has "taken control" of `*.feature` files, so make sure that when you open a Karate feature file - you can see `Karate` as the "Language Mode" in the bottom right corner of VS Code (in the status bar)
+  * You can explicitly set the language mode by clicking on the current mode (typically `Gherkin`) and selecting `Karate` from the list
+  * Or go to `View --> Command Palette` and search for `Change Language Mode`
 * Once signed-in, you will not be prompted again for 30 days
 * New subscribers will be taken through a purchase flow
 * You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io)
