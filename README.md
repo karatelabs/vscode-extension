@@ -63,7 +63,7 @@ K-Flow is a separate upgrade from Karate Pro. For more details on pricing and fe
 * New subscribers will be taken through a purchase flow
 * You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io)
 * Pricing information can be [found on our website](https://www.karatelabs.io/plugins)
-* [Contact us](https://www.karatelabs.io/karate-labs-contact) if you need more information
+* [Contact us](https://www.karatelabs.io/contact-us) if you need more information
 
 See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
 
