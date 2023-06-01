@@ -7,12 +7,6 @@ This extension is brought to you by [Karate Labs](https://karatelabs.io). Find i
 ## Ready To Run
 No extra installation or setup is required. Everything needed to write and run Karate scripts is included.
 
-## Command Line
-Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
-
-* Use the [stand-alone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options), recommended if you are new to programming
-* use a standard [Java Maven or Gradle project](https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-Gradle), and you can refer to the [Karate examples](https://github.com/karatelabs/karate-examples/blob/main/README.md) for sample "starter" projects.
-
 # Core Features
 * [API testing](https://karatelabs.github.io/karate/), [API mocks](https://karatelabs.github.io/karate/karate-netty/), and [UI / web-browser automation](https://karatelabs.github.io/karate/karate-core/)
 * Syntax coloring
@@ -26,6 +20,15 @@ Once you are familiar with Karate and have created a few tests, you may want to 
   * Maven
   * Custom (e.g. for Gradle or [stand-alone JAR](https://karatelabs.github.io/karate/karate-netty/#standalone-jar))
 * Works in remote environments (e.g. [GitHub Codespaces](https://github.com/karatelabs/karate/wiki/Karate-in-GitHub-Codespaces), [Gitpod](https://www.gitpod.io/), [Devcontainers / Docker](https://code.visualstudio.com/docs/devcontainers/containers))
+
+## Editing Classpath
+To add custom JAR files to the runtime, you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
+
+## Command Line
+Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
+
+* Use the [stand-alone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options), recommended if you are new to programming
+* use a standard [Java Maven or Gradle project](https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-Gradle), and you can refer to the [Karate examples](https://github.com/karatelabs/karate-examples/blob/main/README.md) for sample "starter" projects.
 
 # Pro Upgrade
 <table>
