@@ -7,6 +7,12 @@ This extension is brought to you by [Karate Labs](https://karatelabs.io). Find i
 ## Ready To Run
 No extra installation or setup is required. Everything needed to write and run Karate scripts is included.
 
+## Command Line
+Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
+
+* Use the [stand-alone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options), recommended if you are new to programming
+* use a standard [Java Maven or Gradle project](https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-Gradle), and you can refer to the [Karate examples](https://github.com/karatelabs/karate-examples/blob/main/README.md) for sample "starter" projects.
+
 # Core Features
 * [API testing](https://karatelabs.github.io/karate/), [API mocks](https://karatelabs.github.io/karate/karate-netty/), and [UI / web-browser automation](https://karatelabs.github.io/karate/karate-core/)
 * Syntax coloring
@@ -63,7 +69,7 @@ K-Flow is a separate upgrade from Karate Pro. For more details on pricing and fe
 * New subscribers will be taken through a purchase flow
 * You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io)
 * Pricing information can be [found on our website](https://www.karatelabs.io/plugins)
-* [Contact us](https://www.karatelabs.io/contact-us) if you need more information
+* [Contact us](https://karatelabs.io/contact-us) if you need more information
 
 See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
 
