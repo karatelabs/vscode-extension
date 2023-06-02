@@ -24,6 +24,9 @@ No extra installation or setup is required. Everything needed to write and run K
 ## Editing Classpath
 To add custom JAR files to the runtime, you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
 
+## Using a specific Karate version
+For convenience, the Karate Visual Studio Code extension bundles and embeds the latest version of Karate. Teams maintaining large test-suites using advanced features may want to "lock-down" the version of Karate used, which is important when collaborating within a team and running tests in Continuous Integration. Refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom)
+
 ## Command Line
 Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
 
