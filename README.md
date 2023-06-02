@@ -22,10 +22,13 @@ No extra installation or setup is required. Everything needed to write and run K
 * Works in remote environments (e.g. [GitHub Codespaces](https://github.com/karatelabs/karate/wiki/Karate-in-GitHub-Codespaces), [Gitpod](https://www.gitpod.io/), [Devcontainers / Docker](https://code.visualstudio.com/docs/devcontainers/containers))
 
 ## Editing Classpath
-To add custom JAR files to the runtime, you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
+To add custom JAR files to the runtime (in default "bundled" run mode), you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
 
 ## Using a specific Karate version
-For convenience, the Karate Visual Studio Code extension bundles and embeds the latest version of Karate. Teams maintaining large test-suites using advanced features may want to "lock-down" the version of Karate used, which is important when collaborating within a team and running tests in Continuous Integration. Refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom)
+For convenience, the Karate Visual Studio Code extension embeds the latest version of Karate (in default "bundled" run mode). Teams maintaining large test-suites using advanced features may want to "lock-down" the version of Karate used, which is important when collaborating within a team and running tests in Continuous Integration. Refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
+
+## Maven or Gradle
+You should change extension settings to switch the run more to "maven" or "custom". Maven should just work without needing to tweak the default command-line settings. For Gradle and custom needs, refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
 
 ## Command Line
 Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
