@@ -18,7 +18,7 @@ No extra installation or setup is required. Everything needed to write and run K
 * One-click to open HTML report
 * Extra run modes (configurable via extension settings)
   * Maven
-  * Custom (e.g. for Gradle or [stand-alone JAR](https://karatelabs.github.io/karate/karate-netty/#standalone-jar))
+  * Custom (e.g. for Gradle or [stand-alone JAR](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom))
 * Works in remote environments (e.g. [GitHub Codespaces](https://github.com/karatelabs/karate/wiki/Karate-in-GitHub-Codespaces), [Gitpod](https://www.gitpod.io/), [Devcontainers / Docker](https://code.visualstudio.com/docs/devcontainers/containers))
 
 ## Editing Classpath
