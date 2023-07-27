@@ -55,6 +55,7 @@ Once you are familiar with Karate and have created a few tests, you may want to 
 <tr>
 <tr>
 <td><a href="#inline-reports">Inline Reports</a></td>
+<td><a href="#launch-configurations">Launch Configurations</a></td>
 </tr>
 </table>
 
@@ -163,6 +164,42 @@ Watch [this video](https://youtu.be/aJ7WdHM1t94?t=40) to get a feel of the enhan
 You can also see all HTTP calls made during a test.
 
 <img height="350" src="https://user-images.githubusercontent.com/915480/214325821-96d480c5-6dba-4459-9f93-0685caea60a2.gif">
+
+## Launch Configurations
+In "Pro" mode, the plugin supports VS Code launch configurations in the `.vscode/launch.json` file. Here is an example configuration:
+
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "karate",
+            "name": "env-test",
+            "request": "launch",
+            "feature": "${file}",
+            "karateArgs": [
+                "-e",
+                "test"
+            ]
+        }
+    ]
+}
+```
+
+The advantage is that you can set up any combination of [Karate runtime options](https://github.com/karatelabs/karate#karateoptions) via `karateArgs`. For example you can:
+* [run tests in parallel](https://github.com/karatelabs/karate/tree/master/karate-netty#parallel-execution)
+* [set the environment](https://github.com/karatelabs/karate/tree/master/karate-netty#karateenv)
+* or [choose tags](https://github.com/karatelabs/karate/tree/master/karate-netty#tags) to include or exclude.
+
+Now you can run tests from the [Run and Debug](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) view in VS Code and keyboard short-cuts such as `F5` will work for the currently focused file in the editor. Note that you can even Run without Debugging: `Ctrl + F5`.
+
+<img height="350" src="https://github.com/karatelabs/karate-vscode-extension/assets/915480/d324e0d9-24a0-4250-9704-13e907494330">
+
+You can have multiple configurations and easily switch between them.
+
+You can add `"noDebug": true` to the run-configuration JSON to force "Run without Debugging" for convenience.
+
+Instead of `${file}` as the value for `feature`, you can use any valid folder path or even multiple feature files.
 
 # Coming Soon
 * Better IntelliSense & Auto-complete
