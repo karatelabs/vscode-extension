@@ -7,13 +7,16 @@ This extension is brought to you by [Karate Labs](https://karatelabs.io). Find i
 ## Ready To Run
 No extra installation or setup is required. Everything needed to write and run Karate scripts is included.
 
-# Core Features
+## PLUS and PRO
+To run tests you require at least a PLUS subscription. A [PRO](#pro-features) level gives you a lot more, including [debug](#debug) support. Refer to the documentation below on [how to sign-in](#how-to-sign-in).
+
+# PLUS Features
 * [API testing](https://karatelabs.github.io/karate/), [API mocks](https://karatelabs.github.io/karate/karate-netty/), and [UI / web-browser automation](https://karatelabs.github.io/karate/karate-core/)
 * Syntax coloring
 * Code Formatting
 * Outline view
 * Embedded JS highlighting
-* Run test (CodeLens)
+* Run CodeLens (requires PLUS or PRO subscription)
 * Color log output
 * One-click to open HTML report
 * Extra run modes (configurable via extension settings)
@@ -21,22 +24,7 @@ No extra installation or setup is required. Everything needed to write and run K
   * Custom (e.g. for Gradle or [stand-alone JAR](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom))
 * Works in remote environments (e.g. [GitHub Codespaces](https://github.com/karatelabs/karate/wiki/Karate-in-GitHub-Codespaces), [Gitpod](https://www.gitpod.io/), [Devcontainers / Docker](https://code.visualstudio.com/docs/devcontainers/containers))
 
-## Editing Classpath
-To add custom JAR files to the runtime (in default "bundled" run mode), you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
-
-### Using a specific Karate version
-For convenience, the Karate Visual Studio Code extension embeds the latest version of Karate (in default "bundled" run mode). Teams maintaining large test-suites using advanced features may want to "lock-down" the version of Karate used, which is important when collaborating within a team and running tests in Continuous Integration. Refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
-
-### Maven or Gradle
-You should change extension settings to switch the run more to "maven" or "custom". Maven should just work without needing to tweak the default command-line settings. For Gradle and custom needs, refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
-
-## Command Line
-Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
-
-* Use the [stand-alone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options), recommended if you are new to programming
-* use a standard [Java Maven or Gradle project](https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-Gradle), and you can refer to the [Karate examples](https://github.com/karatelabs/karate-examples/blob/main/README.md) for sample "starter" projects.
-
-# Pro Upgrade
+# PRO Features
 <table>
 <tr>
 <td><a href="#debug">Debug</a></td>
@@ -59,6 +47,37 @@ Once you are familiar with Karate and have created a few tests, you may want to 
 </tr>
 </table>
 
+## How to Sign In
+Use the "Accounts" toolbar in VS Code (usually on the bottom left, see screenshot below).
+
+If you don't see the option to `Sign in with Karate` make sure you have opened a folder with a `*.feature` file in it to activate the plugin
+
+  * It also can happen that another plugin has "taken control" of `*.feature` files, so make sure that when you open a Karate feature file - you can see `Karate` as the "Language Mode" in the bottom right corner of VS Code (in the status bar)
+  * You can explicitly set the language mode by clicking on the current mode (e.g. `Gherkin`) and selecting `Karate` from the list. Or go to `View --> Command Palette` and search for `Change Language Mode`
+
+Once signed-in, you will not be prompted again for 30 days. New subscribers will be taken through a purchase flow. You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io).
+
+Pricing information can be [found on our website](https://karatelabs.io/pricing). If you need more information, please [Contact us](https://karatelabs.io/contact-us).
+
+See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
+
+<a href="https://youtu.be/p3QDyXK4ABo"><img height="250" src="https://user-images.githubusercontent.com/915480/204451498-5e297c5b-2c93-46e9-9fd3-360a6405fc66.png"></a>
+
+## Editing Classpath
+To add custom JAR files to the runtime (in default "bundled" run mode), you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
+
+### Using a specific Karate version
+For convenience, the Karate Visual Studio Code extension embeds the latest version of Karate (in default "bundled" run mode). Teams maintaining large test-suites using advanced features may want to "lock-down" the version of Karate used, which is important when collaborating within a team and running tests in Continuous Integration. Refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
+
+### Maven or Gradle
+You should change extension settings to switch the run more to "maven" or "custom". Maven should just work without needing to tweak the default command-line settings. For Gradle and custom needs, refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
+
+## Command Line
+Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
+
+* Use the [stand-alone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options), recommended if you are new to programming
+* use a standard [Java Maven or Gradle project](https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-Gradle), and you can refer to the [Karate examples](https://github.com/karatelabs/karate-examples/blob/main/README.md) for sample "starter" projects.
+
 # K-Flow
 K-Flow is an enterprise solution that solves for API documentation, with a focus on end-user workflows. The highlights are:
 * A no-code interface for creating, editing and previewing these flows
@@ -69,29 +88,13 @@ K-Flow is an enterprise solution that solves for API documentation, with a focus
 
 K-Flow is a separate upgrade from Karate Pro. For more details on pricing and features, [refer to our website](https://www.karatelabs.io/k-flow).
 
-## How to Sign In
-* Use the "Accounts" toolbar in VS Code (usually on the bottom left, see screenshot below)
-  * If you don't see the option to `Sign in with Karate` make sure you have opened a folder with a `*.feature` file in it to activate the plugin
-  * It also can happen that another plugin has "taken control" of `*.feature` files, so make sure that when you open a Karate feature file - you can see `Karate` as the "Language Mode" in the bottom right corner of VS Code (in the status bar)
-  * You can explicitly set the language mode by clicking on the current mode (typically `Gherkin`) and selecting `Karate` from the list
-  * Or go to `View --> Command Palette` and search for `Change Language Mode`
-* Once signed-in, you will not be prompted again for 30 days
-* New subscribers will be taken through a purchase flow
-* You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io)
-* Pricing information can be [found on our website](https://www.karatelabs.io/plugins)
-* [Contact us](https://karatelabs.io/contact-us) if you need more information
-
-See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
-
-<a href="https://youtu.be/p3QDyXK4ABo"><img height="250" src="https://user-images.githubusercontent.com/915480/204451498-5e297c5b-2c93-46e9-9fd3-360a6405fc66.png"></a>
-
 ## Debug
 * In Pro mode, a `Debug` codelens appears next to the `Run >>` option.
 * Set break-points and even step-back in time.
 * Save time with the hot-reload feature without needing to re-start your flow.
 * Interact with a live session using the VS Code debug console.
 
-See a 1 minute video [here](https://youtu.be/_BlUgR9noEI).
+See a 1 minute video [here](https://youtu.be/_BlUgR9noEI). If you are using Maven or Gradle, refer to the instructions here to set up your project for debugging: [Debug Server](https://github.com/karatelabs/karate/wiki/Debug-Server).
 
 <table>
 <tr>
