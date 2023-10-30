@@ -10,6 +10,8 @@ No extra installation or setup is required. Everything needed to write and run K
 ## PLUS and PRO
 To run tests you require at least a PLUS subscription. A [PRO](#pro-features) level gives you a lot more, including [debug](#debug) support. Refer to the documentation below on [how to sign-in](#how-to-sign-in).
 
+Pricing information can be [found on our website](https://karatelabs.io/pricing). If you need more information, please [Contact us](https://karatelabs.io/contact-us).
+
 # PLUS Features
 * [API testing](https://karatelabs.github.io/karate/), [API mocks](https://karatelabs.github.io/karate/karate-netty/), and [UI / web-browser automation](https://karatelabs.github.io/karate/karate-core/)
 * Syntax coloring
@@ -50,6 +52,8 @@ To run tests you require at least a PLUS subscription. A [PRO](#pro-features) le
 ## How to Sign In
 Use the "Accounts" toolbar in VS Code (usually on the bottom left, see screenshot below).
 
+<a href="https://youtu.be/p3QDyXK4ABo"><img height="250" src="https://user-images.githubusercontent.com/915480/204451498-5e297c5b-2c93-46e9-9fd3-360a6405fc66.png"></a>
+
 If you don't see the option to `Sign in with Karate` make sure you have opened a folder with a `*.feature` file in it to activate the plugin
 
   * It also can happen that another plugin has "taken control" of `*.feature` files, so make sure that when you open a Karate feature file - you can see `Karate` as the "Language Mode" in the bottom right corner of VS Code (in the status bar)
@@ -57,11 +61,7 @@ If you don't see the option to `Sign in with Karate` make sure you have opened a
 
 Once signed-in, you will not be prompted again for 30 days. New subscribers will be taken through a purchase flow. You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io).
 
-Pricing information can be [found on our website](https://karatelabs.io/pricing). If you need more information, please [Contact us](https://karatelabs.io/contact-us).
-
 See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
-
-<a href="https://youtu.be/p3QDyXK4ABo"><img height="250" src="https://user-images.githubusercontent.com/915480/204451498-5e297c5b-2c93-46e9-9fd3-360a6405fc66.png"></a>
 
 ## Editing Classpath
 To add custom JAR files to the runtime (in default "bundled" run mode), you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
