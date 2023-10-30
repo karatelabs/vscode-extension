@@ -203,15 +203,3 @@ You can have multiple configurations and easily switch between them.
 You can add `"noDebug": true` to the run-configuration JSON to force "Run without Debugging" for convenience.
 
 Instead of `${file}` as the value for `feature`, you can use any valid folder path or even multiple feature files.
-
-# Coming Soon
-* Better IntelliSense & Auto-complete
-* Improved syntax validation
-* Reports
-  * API coverage
-* No-code
-  * API request builder
-  * API mock builder
-  * Assertion builder
-* Record API tests from browser
-* Test case management
