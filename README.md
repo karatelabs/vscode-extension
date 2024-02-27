@@ -77,7 +77,7 @@ License activation and status is available via a command. Go to `View -> Command
 
 Choose the option to `Sign In / Manage License` and you will be shown a dialog. Click `Sign In` to be taken through the usual flow linked to your existing subscription details.
 
-Once you have authenticated successfully, copy the session ID from the browser and paste it into the input-box now showing in VS Code. Click `ENTER` to complete the sign-in.
+Once you have authenticated successfully, copy the session ID from the browser and paste it into the input-box now showing in VS Code. Hit `ENTER` to complete the sign-in.
 
 <img src="resources/sign-in-sessionid.jpg" height="150px"/>
 
