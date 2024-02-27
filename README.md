@@ -1,175 +1,122 @@
-# Karate for VS Code
-
-[Karate](https://karatelabs.github.io/karate/) is an open-source test-automation framework.
-
-This extension is brought to you by [Karate Labs](https://karatelabs.io). Find it at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=karatelabs.karate) or [Open VSX Registry](https://open-vsx.org/extension/karatelabs/karate).
-
-## Ready To Run
-No extra installation or setup is required. Everything needed to write and run Karate scripts is included.
-
-## PLUS and PRO
-To run tests you require at least a PLUS subscription. A [PRO](#pro-features) level gives you a lot more, including [debug](#debug) support. Refer to the documentation below on [how to sign-in](#how-to-sign-in).
-
-Pricing information can be [found on our website](https://karatelabs.io/pricing). If you need more information, please [Contact us](https://karatelabs.io/contact-us).
-
-# PLUS Features
-* [API testing](https://karatelabs.github.io/karate/), [API mocks](https://karatelabs.github.io/karate/karate-netty/), and [UI / web-browser automation](https://karatelabs.github.io/karate/karate-core/)
-* Syntax coloring
-* Code Formatting
-* Outline view
-* Embedded JS highlighting
-* Run CodeLens (requires PLUS or PRO subscription)
-* Color log output
-* One-click to open HTML report
-* Extra run modes (configurable via extension settings)
-  * Maven
-  * Custom (e.g. for Gradle or [stand-alone JAR](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom))
-* Works in remote environments (e.g. [GitHub Codespaces](https://github.com/karatelabs/karate/wiki/Karate-in-GitHub-Codespaces), [Gitpod](https://www.gitpod.io/), [Devcontainers / Docker](https://code.visualstudio.com/docs/devcontainers/containers))
-
-# PRO Features
 <table>
-<tr>
-<td><a href="#debug">Debug</a></td>
-<td><a href="#code-folding">Code Folding</a></td>
-<td><a href="#json-formatting">JSON Formatting</a></td>
-</tr>
-<tr>
-<td><a href="#run-mode">Run Mode</a></td>
-<td><a href="#run-options">Run Options</a></td>
-<td><a href="#context-menu">Context Menu</a></td>
-</tr>
-<tr>
-<td><a href="#postman-import">Postman Import</a></td>
-<td><a href="#openapi-import">OpenAPI / Swagger Import</a></td>
-<td><a href="#curl-and-har-import">cURL and HAR Import</a></td>
-<tr>
-<tr>
-<td><a href="#inline-reports">Inline Reports</a></td>
-<td><a href="#launch-configurations">Launch Configurations</a></td>
-</tr>
+    <tr>
+        <td>
+            <br/><a href="https://karatelabs.io"><img src="resources/karate-logo.svg" style="height:45px"/></a>
+        </td>
+        <td>
+            <h2>VS Code Extension</h2>           
+        </td>
+        <th>
+            <h3><a href="">:tv: <br/>&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a></h3>
+        </th>        
+        <th>
+            <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>&nbsp;&nbsp;Pricing&nbsp;&nbsp;</a></h3>
+        </th>       
+        <th>
+            <h3><a href="https://marketplace.visualstudio.com/items?itemName=karatelabs.karate">:zap: <br/> Download</a></h3>
+        </th>
+        <th>
+            <h3><a href="https://github.com/karatelabs/vscode-extension/issues">:octocat: <br/>&nbsp;&nbsp;&nbsp;Issues&nbsp;&nbsp;&nbsp;</a></h3>
+        </th>        
+    </tr>
 </table>
 
-## How to Sign In
-Use the "Accounts" toolbar in VS Code (usually on the bottom left, see screenshot below).
-
-<a href="https://youtu.be/p3QDyXK4ABo"><img height="250" src="https://user-images.githubusercontent.com/915480/204451498-5e297c5b-2c93-46e9-9fd3-360a6405fc66.png"></a>
-
-If you don't see the option to `Sign in with Karate` make sure you have opened a folder with a `*.feature` file in it to activate the plugin
-
-  * It also can happen that another plugin has "taken control" of `*.feature` files, so make sure that when you open a Karate feature file - you can see `Karate` as the "Language Mode" in the bottom right corner of VS Code (in the status bar)
-  * You can explicitly set the language mode by clicking on the current mode (e.g. `Gherkin`) and selecting `Karate` from the list. Or go to `View --> Command Palette` and search for `Change Language Mode`
-
-Once signed-in, you will not be prompted again for 30 days. New subscribers will be taken through a purchase flow. You can manage your subscription at [studio.karatelabs.io](https://studio.karatelabs.io).
-
-See a 30 second video [here](https://youtu.be/p3QDyXK4ABo).
-
-## Editing Classpath
-To add custom JAR files to the runtime (in default "bundled" run mode), you can follow [these instructions](https://github.com/karatelabs/karate/wiki/Karate-Robot-Windows-Install-Guide#edit-karate-extension-classpath). This is needed if you want to use [Karate Robot](https://github.com/karatelabs/karate/tree/master/karate-robot) for Windows desktop automation.
-
-### Using a specific Karate version
-For convenience, the Karate Visual Studio Code extension embeds the latest version of Karate (in default "bundled" run mode). Teams maintaining large test-suites using advanced features may want to "lock-down" the version of Karate used, which is important when collaborating within a team and running tests in Continuous Integration. Refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
-
-### Maven or Gradle
-You should change extension settings to switch the run more to "maven" or "custom". Maven should just work without needing to tweak the default command-line settings. For Gradle and custom needs, refer to this wiki page for more: [Run Mode - Custom](https://github.com/karatelabs/karate-vscode-extension/wiki/Run-Mode:-Custom).
-
-## Command Line
-Once you are familiar with Karate and have created a few tests, you may want to run them from the command-line. You have two options:
-
-* Use the [stand-alone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options), recommended if you are new to programming
-* use a standard [Java Maven or Gradle project](https://github.com/karatelabs/karate/wiki/Get-Started:-Maven-and-Gradle), and you can refer to the [Karate examples](https://github.com/karatelabs/karate-examples/blob/main/README.md) for sample "starter" projects.
-
-# K-Flow
-K-Flow is an enterprise solution that solves for API documentation, with a focus on end-user workflows. The highlights are:
-* A no-code interface for creating, editing and previewing these flows
-* First-class support for OpenAPI and Swagger
-* Export to pure-HTML for publishing or internal-collaboration
-* Showing how multiple APIs are called in sequence as a business workflow
-* Showing variations of a given API due to business-rules
-
-K-Flow is a separate upgrade from Karate Pro. For more details on pricing and features, [refer to our website](https://www.karatelabs.io/k-flow).
-
-## Debug
-* In Pro mode, a `Debug` codelens appears next to the `Run >>` option.
-* Set break-points and even step-back in time.
-* Save time with the hot-reload feature without needing to re-start your flow.
-* Interact with a live session using the VS Code debug console.
-
-See a 1 minute video [here](https://youtu.be/_BlUgR9noEI). If you are using Maven or Gradle, refer to the instructions here to set up your project for debugging: [Debug Server](https://github.com/karatelabs/karate/wiki/Debug-Server).
-
 <table>
-<tr>
-<td><a href="https://youtu.be/_BlUgR9noEI"><img height="200" src="https://user-images.githubusercontent.com/915480/204463528-f7445fbb-67d1-4968-91e3-e6ae68499ea0.png"></a></td>
-<td><a href="https://youtu.be/_BlUgR9noEI"><img height="200" src="https://user-images.githubusercontent.com/915480/204464214-010aaf5c-84d4-4e89-b751-f7db76dd3f9f.png"></a></td>
-</tr>
+    <tr>
+        <th>PLUS</th>
+        <th>PRO</th>
+        <th>Enterprise</th>
+    </tr>    
+    <tr>
+        <td>            
+            <ul>
+                <li>Syntax coloring</li>                
+                <li>Run Feature from editor</li>
+                <li><a href="#run-from-editor">Run single Scenario / Example</a></li>
+                <li><a href="#launch-configurations">Launch Configurations</a></li>
+                <li><a href="#outline-view">Outline view</a></li>
+                <li><a href="#code-formatting">Code formatting</a></li>
+                <li><a href="#test-results">In-IDE test results</a></li>
+            </ul>
+        </td>
+        <td>
+            <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PLUS)</i>
+            <ul>
+                <li><a href="#auto-complete">Auto complete</a></li>                
+                <li><a href="#code-folding">Code folding</a></li>
+                <li><a href="#references">Jump to references</a></li>
+                <li><a href="#json-re-formatting">JSON re-formatting</a></li>
+                <li><a href="#run-folder">Run all tests in folder</a></li>
+                <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
+                <li><a href="#debug">Debug Karate test</a></li>
+                <li>Debug Java &amp; Karate in same session</li>
+                <li>Java debug session stops at Karate breakpoints</li>
+                <li>cURL import *</li>
+                <li>OpenAPI support *</li>
+            </ul><i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
+        </td>
+        <td>
+            <ul>
+                <li>Priority support</li>
+                <li>SSO / SAML support</li>
+                <li>Offline license</li>
+                <li><a href="https://www.karatelabs.io/contact-us">Contact us</a></li>
+            </ul>        
+        </td>        
+    </tr>
 </table>
 
-## Code Folding
+> By using this plugin, you agree to the Karate Labs [EULA](https://karatelabs.io/eula). Data on a few user actions is collected and subject to our [Privacy Policy](https://karatelabs.io/privacy-policy). HTML reports generated by the Karate open-source library has [additional analytics](https://github.com/karatelabs/karate/blob/master/karate-core/src/test/resources/analytics.md).
 
-<img height="350" src="https://user-images.githubusercontent.com/915480/204472621-f399be05-3ef2-4c1b-a3ba-49c6a5fa5408.gif">
+## License Activation
+License activation and status is available via a command. Go to `View -> Command Palette`, type `Karate` and you should see something like this.
 
-## JSON Formatting
+<img src="resources/sign-in.jpg" height="200px"/>
 
-<img height="350" src="https://user-images.githubusercontent.com/915480/204474431-3a77f7ae-68fe-4a5b-b0bd-8f5c137ab58b.gif">
+<p>&nbsp;</p>
 
-## Run Mode
-Easily switch run-mode.
+Choose the option to `Sign In / Manage License` and you will be shown a dialog. Click `Sign In` to be taken through the usual flow linked to your existing subscription details.
 
-<img height="300" alt="image" src="https://user-images.githubusercontent.com/915480/204508033-b5bef30a-c3ee-4c6d-baa1-937668254b7a.png">
+Once you have authenticated successfully, copy the session ID from the browser and paste it into the input-box now showing in VS Code. Click `ENTER` to complete the sign-in.
 
-## Run Options
-Easily edit Karate run-options.
+<img src="resources/sign-in-sessionid.jpg" height="150px"/>
 
-<img height="300" alt="image" src="https://user-images.githubusercontent.com/915480/204508355-1f30f132-60cf-406c-b9ce-e3b0ea9a2232.png">
+<p>&nbsp;</p>
 
-## Context Menu
-* Right-click in the explorer view to run all tests in a folder.
-* You can even start mocks (see [OpenAPI import](#openapi-import) for more about mocks).
+Once signed-in you can work offline. You can always run the `Sign In / Manage License` command to see how many days are left in your session.
 
-<img height="300" alt="image" src="https://user-images.githubusercontent.com/915480/204508520-e6a8ae02-0cce-41da-9c8e-7e6854ffd0af.png">
+If you need an offline license because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us).
 
-## Postman Import
+## Settings
+Especially if you are working with Java Maven or Gradle projects, it is recommended that you have the [Language Support for Java](https://marketplace.visualstudio.com/items?itemName=redhat.java) VS Code extension installed.
 
-<img height="350" src="https://user-images.githubusercontent.com/915480/204480195-f4068e38-a6ea-4383-a65e-eb8ac9e6b80b.gif">
+Then keep the `karatelabs.karate.run.mode` setting as `vscode-java` (the default).
 
-## OpenAPI Import
+You can change this to `standalone` if you want to use the [Karate standalone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options#standalone-jar). Download it and choose a local folder to keep JAR files in. Change the `karatelabs.karate.run.modeJars` setting to point to that folder, and for convenience, all JARs within that folder will be included in the runtime classpath.
 
-* All versions including Swagger support.
-* Documentation on the new JS mocks in Karate can be found [here](https://github.com/karatelabs/karate/wiki/Karate-JavaScript-Mocks).
-* For extra insights, refer to [this presentation at the API Specifications Conference 2022](https://youtu.be/-atUwH-EP_Y).
-* A sample project can be found here: [karate-oas-demo](https://github.com/ptrthomas/karate-oas-demo).
+<img src="resources/settings.jpg" height="500px"/>
 
-See video [here](https://youtu.be/_2iKwyALkvw).
+<p>&nbsp;</p>
 
-<a href="https://youtu.be/_2iKwyALkvw"><img height="350" alt="image" src="https://user-images.githubusercontent.com/915480/204509458-65686fe0-d3c5-45d9-a348-3901bfd535da.png"></a>
+You can also opt to run commands such as `java` or `mvn` directly with `karatelabs.karate.run.mode` set to `custom`.
 
-## cURL and HAR Import
+## Run From Editor
+You can run a feature file open in the editor by using the CodeLens. The keyboard shortcut `[CTRL]` `[F5]` also works.
 
-* You can double-click on unused space in the VS Code editor (tab) and use the text-editor as an import source.
-* This works even on the JavaScript used in Postman "Tests" so that you can troubleshoot the importing of complex collections.
-* All supported formats supported via plain-text this way:
-  * cURL
-  * HAR
-  * Postman
-    * Collections
-    * Tests / Assertions JS
-  * Swagger
-  * OpenAPI
+<img src="resources/run-feature.jpg" height="350px"/>
 
-<img height="350" src="https://user-images.githubusercontent.com/915480/204512747-b5f1b886-15be-42d0-b974-91ec8f78f98d.gif">
+<p>&nbsp;</p>
 
-## Inline Reports
-View summary and Feature / Scenario reports without leaving your IDE. This is especially useful when using a remote development environment such as [GitHub Codespaces](https://github.com/features/codespaces).
+You can run a single `Scenario` by using the CodeLens that appears above it.
 
-<img height="350" src="https://user-images.githubusercontent.com/915480/214324137-e522b43a-93fa-4688-878b-29272ec01715.gif">
+You can even run a single "example" in a `Scenario Outline` by right-clicking on one of the data-rows within an `Examples` table.
 
-Watch [this video](https://youtu.be/aJ7WdHM1t94?t=40) to get a feel of the enhanced Developer-Experience.
-
-You can also see all HTTP calls made during a test.
-
-<img height="350" src="https://user-images.githubusercontent.com/915480/214325821-96d480c5-6dba-4459-9f93-0685caea60a2.gif">
+<img src="resources/run-example.jpg" height="180px"/>
 
 ## Launch Configurations
-In "Pro" mode, the plugin supports VS Code launch configurations in the `.vscode/launch.json` file. Here is an example configuration:
+VS Code [launch-configurations](https://code.visualstudio.com/docs/editor/debugging) are useful for being able to re-run tests with specific parameters. All the typical Karate options you need are supported, including control over the JVM parameters and working directory. The feature file (or path to search for feature files) should be the last argument.
+
+Here is an example `.vscode/launch.json` file:
 
 ```json
 {
@@ -179,10 +126,10 @@ In "Pro" mode, the plugin supports VS Code launch configurations in the `.vscode
             "type": "karate",
             "name": "env-test",
             "request": "launch",
-            "feature": "${file}",
             "karateArgs": [
                 "-e",
-                "test"
+                "test",
+                "${file}"
             ]
         }
     ]
@@ -196,10 +143,73 @@ The advantage is that you can set up any combination of [Karate runtime options]
 
 Now you can run tests from the [Run and Debug](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) view in VS Code and keyboard short-cuts such as `F5` will work for the currently focused file in the editor. Note that you can even Run without Debugging: `Ctrl + F5`.
 
-<img height="350" src="https://github.com/karatelabs/karate-vscode-extension/assets/915480/d324e0d9-24a0-4250-9704-13e907494330">
+<img src="resources/launch-config.jpg" height="400px"/>
+
+<p>&nbsp;</p>
 
 You can have multiple configurations and easily switch between them.
 
 You can add `"noDebug": true` to the run-configuration JSON to force "Run without Debugging" for convenience.
 
 Instead of `${file}` as the value for `feature`, you can use any valid folder path or even multiple feature files.
+
+## Outline View
+The VS Code [outline view](https://www.jetbrains.com/help/idea/viewing-structure-of-a-source-file.html) is supported so you can navigate large files with ease.
+
+<img src="resources/outline-view.jpg" height="400px"/>
+
+## Code Formatting
+VS Code [code-formatting](https://code.visualstudio.com/docs/editor/codebasics#_formatting) shortcuts work to format indenting of feature file elements.
+
+## Test Results
+The HTML report is one-click away.
+
+<img src="resources/test-report-link.jpg" height="200px"/>
+
+## Auto Complete
+Besides the syntax validation, you have auto-complete for the most commonly used keywords.
+
+<img src="resources/autocomplete.jpg" height="200px"/>
+
+## Code Folding
+You can collapse sections to make it easier to deal with long tests.
+
+<img src="resources/code-folding.jpg" height="200px"/>
+
+## References
+Coming Soon.
+
+## JSON Re-formatting
+Place the cursor within JSON to see options to re-format it, you will see a "bulb" icon.
+
+<img src="resources/json-bulb.jpg" height="250px"/>
+
+<p>&nbsp;</p>
+
+The following options are possible (depending on context):
+
+* Lenient - just like JS, where single-quotes are used and no quotes are needed for property keys
+* Strict - Strict JSON, using double-quotes
+* Make single Line - convert multi-line JSON to a single line
+* Make multi-line - convert a single line of JSON to multi-line, including triple-quotes
+
+## Run Folder
+
+As a convenience, you can right-click and run a folder from the explorer view.
+
+<img src="resources/run-folder.jpg" height="450px"/>
+
+## Debug
+
+You can set break-points on Karate feature files in debug mode. The Karate debugger can even step-back and hot-reload simple edits to your test.
+
+<img src="resources/debug.jpg" height="600px"/>
+
+### Debug Java from Karate
+
+A Karate debug session will even stop at Java breakpoints.
+
+### Debug Karate from Java
+
+You can also start a normal Java debug session that uses the Karate `Runner` Java API but still stop at Karate breakpoints. This requires you to be using Karate version 1.5.0.RC3 or greater.
+
