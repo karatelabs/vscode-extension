@@ -7,7 +7,7 @@
             <h2>VS Code Extension</h2>           
         </td>
         <th>
-            <h3><a href="">:tv: <br/>&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a></h3>
+            <h3><a href="https://youtu.be/m5fyOtpiOHs?si=sk8abkmTZXTcnoA-">:tv: <br/>&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;</a></h3>
         </th>        
         <th>
             <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>&nbsp;&nbsp;Pricing&nbsp;&nbsp;</a></h3>
