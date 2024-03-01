@@ -7,16 +7,16 @@
             <h2>VS Code Extension</h2>           
         </td>
         <th>
-            <h3><a href="https://youtu.be/m5fyOtpiOHs?si=sk8abkmTZXTcnoA-">:tv: <br/>Video</a></h3>
+            <h3><a href="https://youtu.be/m5fyOtpiOHs?si=sk8abkmTZXTcnoA-">:tv: <br/>&nbsp;Video&nbsp;</a></h3>
         </th>        
         <th>
             <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>Pricing</a></h3>
         </th>       
         <th>
-            <h3><a href="https://marketplace.visualstudio.com/items?itemName=karatelabs.karate">:zap: <br/> Marketplace</a></h3>
+            <h3><a href="https://marketplace.visualstudio.com/items?itemName=karatelabs.karate">:zap: <br/> Market<br/>place</a></h3>
         </th>
         <th>
-            <h3><a href="https://open-vsx.org/extension/karatelabs/karate">:bulb: <br/> Open VSX</a></h3>
+            <h3><a href="https://open-vsx.org/extension/karatelabs/karate">:bulb: <br/>&nbsp;Open&nbsp;<br/>VSX</a></h3>
         </th>         
         <th>
             <h3><a href="https://github.com/karatelabs/vscode-extension/issues">:octocat: <br/>Issues</a></h3>
