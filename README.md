@@ -13,10 +13,10 @@
             <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>Pricing</a></h3>
         </th>       
         <th>
-            <h3><a href="https://marketplace.visualstudio.com/items?itemName=karatelabs.karate">:zap: <br/> Market<br/>place</a></h3>
+            <h3><a href="https://marketplace.visualstudio.com/items?itemName=karatelabs.karate"><br/>:zap: <br/> Market<br/>place</a></h3>
         </th>
         <th>
-            <h3><a href="https://open-vsx.org/extension/karatelabs/karate">:bulb: <br/>&nbsp;Open&nbsp;<br/>VSX</a></h3>
+            <h3><a href="https://open-vsx.org/extension/karatelabs/karate"><br/>:bulb: <br/>&nbsp;Open&nbsp;<br/>VSX</a></h3>
         </th>         
         <th>
             <h3><a href="https://github.com/karatelabs/vscode-extension/issues">:octocat: <br/>Issues</a></h3>
