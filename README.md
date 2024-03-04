@@ -62,7 +62,7 @@
             <ul>
                 <li>Priority support</li>
                 <li>SSO / SAML support</li>
-                <li>Offline license</li>
+                <li><a href="#offline-license">Offline license</a></li>
                 <li><a href="https://www.karatelabs.io/contact-us">Contact us</a></li>
             </ul>        
         </td>        
@@ -78,7 +78,7 @@ License activation and status is available via a command. Go to `View -> Command
 
 <p>&nbsp;</p>
 
-Choose the option to `Sign In / Manage License` and you will be shown a dialog. Click `Sign In` to be taken through the usual flow linked to your existing subscription details.
+Choose the option to `Sign In / Manage License` and you will be shown a [dialog](#offline-license). Click `Sign In` to be taken through the usual flow linked to your existing subscription details.
 
 Once you have authenticated successfully, copy the session ID from the browser and paste it into the input-box now showing in VS Code. Hit `ENTER` to complete the sign-in.
 
@@ -215,4 +215,30 @@ A Karate debug session will even stop at Java breakpoints.
 ### Debug Karate from Java
 
 You can also start a normal Java debug session that uses the Karate `Runner` Java API but still stop at Karate breakpoints. This requires you to be using Karate version 1.5.0.RC3 or greater.
+
+## Offline License
+
+The dialog you see when you invoke the [`Sign In / Manage License`](#license-activation) command looks like this.
+
+<img src="resources/license-dialog.jpg" height="100px"/>
+
+<p>&nbsp;</p>
+
+Click the `Offline License` button. A unique code for your system will be shown which you can cut and paste. In the example below, it is: `DhHOFKHvd7XYTi+rQnNTJQ==`
+
+<img src="resources/offline-license-code.jpg" height="150px"/>
+
+<p>&nbsp;</p>
+
+Send that unique code to [Karate Labs](https://www.karatelabs.io/contact-us) or your enterprise admin. You will be issued a license that is tied to this unique code. To apply the license, copy *all* the text from the license file (which should start with: `-----BEGIN LICENSE FILE-----`) and paste it into the text-field shown above. Make sure you *clear* the text-box before pasting the license file text or just replace the initial contents. Now you should see something like this.
+
+<img src="resources/offline-license-paste.jpg" height="150px"/>
+
+<p>&nbsp;</p>
+
+Click [ENTER] and should see a confirmation message with your license details.
+
+
+
+
 
