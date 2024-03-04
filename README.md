@@ -97,7 +97,7 @@ Then keep the `karatelabs.karate.run.mode` setting as `vscode-java` (the default
 
 You can change this to `standalone` if you want to use the [Karate standalone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options#standalone-jar). Download it and choose a local folder to keep JAR files in. Change the `karatelabs.karate.run.modeJars` setting to point to that folder, and for convenience, all JARs within that folder will be included in the runtime classpath.
 
-Note that the `Mode Jars` setting should be a folder name. Do not include the `.jar` part.
+Note that the `Mode Jars` setting should be a folder name. Do not include the `.jar` part. Note that the default of `.` will work fine for the common parctice of keeping the Karate JAR in the "root" of your project folder.
 
 <img src="resources/settings.jpg" height="500px"/>
 
