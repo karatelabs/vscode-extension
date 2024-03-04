@@ -97,11 +97,27 @@ Then keep the `karatelabs.karate.run.mode` setting as `vscode-java` (the default
 
 You can change this to `standalone` if you want to use the [Karate standalone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options#standalone-jar). Download it and choose a local folder to keep JAR files in. Change the `karatelabs.karate.run.modeJars` setting to point to that folder, and for convenience, all JARs within that folder will be included in the runtime classpath.
 
+Note that the `Mode Jars` setting should be a folder name. Do not include the `.jar` part.
+
 <img src="resources/settings.jpg" height="500px"/>
 
 <p>&nbsp;</p>
 
 You can also opt to run commands such as `java` or `mvn` directly with `karatelabs.karate.run.mode` set to `custom`.
+
+## Troubleshooting
+
+If the [Language Support for Java](https://marketplace.visualstudio.com/items?itemName=redhat.java) extension is not installed, you will need a Java runtime installed and [`JAVA_HOME` set in your environment](https://www.baeldung.com/java-home-on-windows-mac-os-x-linux). Having the `java` command in your [system `PATH`](https://www.java.com/en/download/help/path.html) should also be sufficient. Java 11 or higher is needed for Karate 1.4.X and Java 17 is needed for Karate 1.5.0 and above.
+
+There is a `Karate Log` within the "Output" tab (next to "Terminal") typically at the bottom of your VS Code window. You can look at it to find the reasons for failure.
+
+<img src="resources/karate-log.jpg" height="200px"/>
+
+<p>&nbsp;</p>
+
+To change the log level you can use the VS Code Command `Developer: Set Log Level` (`View --> Command Palette` and type "Log") and then select `Karate Log`.
+
+<img src="resources/log-level.jpg" height="200px"/>
 
 ## Run From Editor
 You can run a feature file open in the editor by using the CodeLens. The keyboard shortcut `[CTRL]` `[F5]` also works.
