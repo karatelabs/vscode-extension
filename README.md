@@ -127,7 +127,7 @@ There is a `Karate Log` within the "Output" tab (next to "Terminal") typically a
 
 <p>&nbsp;</p>
 
-To change the log level you can use the VS Code Command `Developer: Set Log Level` (`View --> Command Palette` and type "Log") and then select `Karate Log`.
+To change the log level you can use the VS Code Command `Developer: Set Log Level` (`View --> Command Palette` and type "Log") and then select `Karate Log`. Changing the log level to `Debug` gives you more information.
 
 <img src="resources/log-level.jpg" height="200px"/>
 
