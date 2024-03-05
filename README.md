@@ -91,19 +91,29 @@ Once signed-in you can work offline. You can always run the `Sign In / Manage Li
 If you need an offline license because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us).
 
 ## Settings
+
+You can access the extension settings by clicking on the "gear" icon after going to "Extensions" on the nav-bar.
+
+<img src="resources/settings-open.jpg" height="300px"/>
+
+<p>&nbsp;</p>
+
 Especially if you are working with Java Maven or Gradle projects, it is recommended that you have the [Language Support for Java](https://marketplace.visualstudio.com/items?itemName=redhat.java) VS Code extension installed.
 
 Then keep the `karatelabs.karate.run.mode` setting as `vscode-java` (the default).
 
-You can change this to `standalone` if you want to use the [Karate standalone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options#standalone-jar). Download it and choose a local folder to keep JAR files in. Change the `karatelabs.karate.run.modeJars` setting to point to that folder, and for convenience, all JARs within that folder will be included in the runtime classpath.
+<img src="resources/settings.jpg" height="650px"/>
+
+### Standalone
+You can change the `karatelabs.karate.run.mode` setting to `standalone` if you want to use the [Karate standalone JAR](https://github.com/karatelabs/karate/wiki/Get-Started:-Other-Runtime-Options#standalone-jar). Download it and choose a local folder to keep JAR files in. Change the `karatelabs.karate.run.modeJars` setting to point to that folder, and for convenience, all JARs within that folder will be included in the runtime classpath.
 
 Note that the `Mode Jars` setting should be a folder name. Do not include the `.jar` part. Note that the default of `.` will work fine for the common parctice of keeping the Karate JAR in the "root" of your project folder.
 
-<img src="resources/settings.jpg" height="500px"/>
+The `karatelabs.karate.run.classpathPrefix` setting defaults to `.` which should suffice for picking up `karate-config.js` from the workspace root. You can add more classpath entries (comma-delimited) and even JAR files if you wish. For example `.,src/test/java` would also search in `src/test/java` for `karate-config.js`.
 
-<p>&nbsp;</p>
+### Custom
 
-You can also opt to run commands such as `java` or `mvn` directly with `karatelabs.karate.run.mode` set to `custom`.
+You can also opt to run commands such as `java` or `mvn` directly with `karatelabs.karate.run.mode` set to `custom`. In this case `java` or `mvn` is expected to be installed and in the system `PATH`.
 
 ## Troubleshooting
 
