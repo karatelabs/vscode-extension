@@ -88,7 +88,7 @@ Once you have authenticated successfully, copy the session ID from the browser a
 
 Once signed-in you can work offline. You can always run the `Sign In / Manage License` command to see how many days are left in your session.
 
-If you need an [offline license](#offline-license) because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us). Please note that this is only for existing customers.
+If you need an [offline license](#offline-license) because of strict security or similar restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us). Please note that this option is available only for enterprise customers of Karate Labs.
 
 ## Settings
 
