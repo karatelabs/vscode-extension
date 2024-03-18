@@ -88,7 +88,7 @@ Once you have authenticated successfully, copy the session ID from the browser a
 
 Once signed-in you can work offline. You can always run the `Sign In / Manage License` command to see how many days are left in your session.
 
-If you need an [offline license](#offline-license) because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us). Please note that this is only for enterprise customers upon request.
+If you need an [offline license](#offline-license) because of strict security or other restrictions in your environment, please [contact us](https://www.karatelabs.io/contact-us). Please note that this is only for existing customers.
 
 ## Settings
 
@@ -259,7 +259,7 @@ Click the `Offline License` button. A unique code for your system will be shown 
 <p>&nbsp;</p>
 
 > [!IMPORTANT]  
-> The Offline License is a paid enterprise feature. Please make sure you have an [enterprise subscription](https://www.karatelabs.io/pricing) before you perform this step.
+> The Offline License is a [paid feature for enterprises](https://www.karatelabs.io/pricing). Please make sure you know who your designated admin is before you perform this step.
 
 Send that unique code to your designated admin. You will be issued a license that is tied to this unique code. To apply the license, copy *all* the text from the license file (which should start with: `-----BEGIN LICENSE FILE-----`) and paste it into the text-field shown above. Make sure you *clear* the text-box before pasting the license file text or just replace the initial contents. Now you should see something like this.
 
