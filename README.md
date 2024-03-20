@@ -246,6 +246,10 @@ You can also start a normal Java debug session that uses the Karate `Runner` Jav
 
 ## Offline License
 
+> [!IMPORTANT]  
+> The Offline License is a [paid feature for enterprises](https://www.karatelabs.io/pricing). Please make sure you know who your designated admin is before you perform this step.
+
+
 The dialog you see when you invoke the [`Sign In / Manage License`](#license-activation) command looks like this.
 
 <img src="resources/license-dialog.jpg" height="100px"/>
@@ -257,9 +261,6 @@ Click the `Offline License` button. A unique code for your system will be shown 
 <img src="resources/offline-license-code.jpg" height="150px"/>
 
 <p>&nbsp;</p>
-
-> [!IMPORTANT]  
-> The Offline License is a [paid feature for enterprises](https://www.karatelabs.io/pricing). Please make sure you know who your designated admin is before you perform this step.
 
 Send that unique code to your designated admin. You will be issued a license that is tied to this unique code. To apply the license, copy *all* the text from the license file (which should start with: `-----BEGIN LICENSE FILE-----`) and paste it into the text-field shown above. Make sure you *clear* the text-box before pasting the license file text or just replace the initial contents. Now you should see something like this.
 
