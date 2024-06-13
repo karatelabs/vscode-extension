@@ -185,7 +185,7 @@ You can add `"noDebug": true` to the run-configuration JSON to force "Run withou
 Instead of `${file}` as the value for `feature`, you can use any valid folder path or even multiple feature files.
 
 ## Outline View
-The VS Code [outline view](https://www.jetbrains.com/help/idea/viewing-structure-of-a-source-file.html) is supported so you can navigate large files with ease.
+The VS Code [outline view](https://code.visualstudio.com/docs/getstarted/userinterface#_outline-view) is supported so you can navigate large files with ease.
 
 <img src="resources/outline-view.jpg" height="400px"/>
 
