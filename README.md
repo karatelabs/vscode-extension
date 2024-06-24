@@ -33,13 +33,13 @@
     <tr>
         <td>            
             <ul>
-                <li>Syntax coloring</li>                
+                <li><a href="https://youtu.be/nXUSnxcdljQ?si=k-M5AYz9nGZylzD8&t=38">Syntax coloring</li>                
                 <li>Run Feature from editor</li>
                 <li><a href="#run-from-editor">Run single Scenario / Example</a></li>
                 <li><a href="#launch-configurations">Launch Configurations</a></li>
                 <li><a href="#outline-view">Outline view</a></li>
-                <li><a href="#code-formatting">Code formatting</a></li>
-                <li><a href="#test-results">In-IDE test results</a></li>
+                <li><a href="https://youtu.be/nXUSnxcdljQ?si=pD7LjtF7hS43Q813&t=363">Code formatting</a></li>
+                <li><a href="https://youtu.be/nXUSnxcdljQ?si=iyJMEdL19I5BkGxf&t=421">Test Results in IDE</a></li>
             </ul>
         </td>
         <td>
