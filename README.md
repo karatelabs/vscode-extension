@@ -45,13 +45,13 @@
         <td>
             <i>&nbsp;&nbsp;&nbsp;&nbsp;(includes all in PLUS)</i>
             <ul>
-                <li><a href="#auto-complete">Auto complete</a></li>                
-                <li><a href="#code-folding">Code folding</a></li>
+                <li><a href="https://youtu.be/IYSNjX5dPZA?si=3sxIzYbJj-7NlYNS&t=30">Auto complete</a></li>                
+                <li><a href="https://youtu.be/IYSNjX5dPZA?si=bjJiFbyY_b6nFKJ_&t=104">Code folding</a></li>
                 <li><a href="#references">Jump to references</a></li>
-                <li><a href="#json-re-formatting">JSON re-formatting</a></li>
-                <li><a href="#run-folder">Run all tests in folder</a></li>
+                <li><a href="https://youtu.be/IYSNjX5dPZA?si=_kWzYEVqvEuXHsQo&t=134">JSON re-formatting</a></li>
+                <li><a href="https://youtu.be/IYSNjX5dPZA?si=CgrqGE0-XVUah4Ll&t=233">Run all tests in folder</a></li>
                 <li>Run Karate Labs add-ons (e.g. <a href="https://github.com/karatelabs/karate-addons/blob/main/karate-kafka/README.md">Kafka</a>)</li>
-                <li><a href="#debug">Debug Karate test</a></li>
+                <li><a href="https://youtu.be/IYSNjX5dPZA?si=qKYmDrtX4DZxXKMZ&t=262">Debug Karate test</a></li>
                 <li>Debug Java &amp; Karate in same session</li>
                 <li>Java debug session stops at Karate breakpoints</li>
                 <li>cURL import *</li>
