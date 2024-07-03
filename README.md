@@ -7,7 +7,7 @@
             <h2><br/>VS Code<br/>Extension</h2>           
         </td>
         <th>
-            <h3><a href="https://youtu.be/IYSNjX5dPZA?si=E1rq8b37UtiwdEV9">:tv: <br/>&nbsp;Video&nbsp;</a></h3>
+            <h3><a href="https://youtu.be/nXUSnxcdljQ?si=wCh-m1qL5Rj1qQIS">:tv: <br/>&nbsp;Video&nbsp;</a></h3>
         </th>        
         <th>
             <h3><a href="https://www.karatelabs.io/pricing">:heavy_dollar_sign: <br/>Pricing</a></h3>
