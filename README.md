@@ -113,7 +113,7 @@ The `karatelabs.karate.run.classpathPrefix` setting defaults to `.` which should
 
 Note that VS Code has a mechanism to [customize settings per Workspace](https://code.visualstudio.com/docs/getstarted/settings#_workspace-settings) (or project folder) which can ensure your whole team uses the same settings. Here is an example of how the values of the `run.mode` and `classpathPrefix` can be written to a file in `.vscode/settings.json`. Now this file can be added to your Git repository or version control.
 
-<img src="resources/settings-workspace.jpg" height="300px"/>
+<img src="resources/settings-workspace.jpg" height="350px"/>
 
 ### Custom
 
