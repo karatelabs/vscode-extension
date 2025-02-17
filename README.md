@@ -123,6 +123,16 @@ For convenience the string `${karateArgs}` will be replaced with command-line ar
 
 ## Troubleshooting
 
+A common source of issues is if you have another extension installed that also supports `*.feature` files.
+
+Here below is a handy guide to a few things to look for that confirm that the Karate Labs extension is ready to use.
+
+<img src="resources/ide-tips.jpg" height="350px"/>
+
+<p>&nbsp;</p>
+
+The `Java Ready` indicator should show up if you are within a Maven or Gradle project.
+
 If the [Language Support for Java](https://marketplace.visualstudio.com/items?itemName=redhat.java) extension is not installed, you will need a Java runtime installed and [`JAVA_HOME` set in your environment](https://www.baeldung.com/java-home-on-windows-mac-os-x-linux). Having the `java` command in your [system `PATH`](https://www.java.com/en/download/help/path.html) should also be sufficient. Java 11 or higher is needed for Karate 1.4.X and Java 17 is needed for Karate 1.5.0 and above.
 
 There is a `Karate Log` within the "Output" tab (next to "Terminal") typically at the bottom of your VS Code window. You can look at it to find the reasons for failure.
