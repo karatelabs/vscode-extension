@@ -54,6 +54,7 @@
                 <li><a href="https://youtu.be/IYSNjX5dPZA?si=qKYmDrtX4DZxXKMZ&t=262">Debug Karate test</a></li>
                 <li>Debug Java &amp; Karate in same session</li>
                 <li>Java debug session stops at Karate breakpoints</li>
+                <li><a href="#runasmock">Run as mock</a></li>
                 <li>cURL import *</li>
                 <li>OpenAPI support *</li>
             </ul><i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
@@ -257,6 +258,12 @@ A Karate debug session will even stop at Java breakpoints.
 ### Debug Karate from Java
 
 You can also start a normal Java debug session that uses the Karate `Runner` Java API but still stop at Karate breakpoints. This requires you to be using Karate version 1.5.0.RC3 or greater.
+
+## Run as mock
+
+You can right click and run a `*.feature` file as a [Karate mock](https://github.com/karatelabs/karate/tree/master/karate-netty#server-life-cycle). You can also do this for the newer JavaScript mocks, so `*.js` files are also supported. Make sure that the file you are right-clicking on is a valid mock script.
+
+<img src="resources/run-as-mock.jpg" height="350px"/>
 
 ## Offline License
 
