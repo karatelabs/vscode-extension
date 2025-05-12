@@ -54,7 +54,7 @@
                 <li><a href="https://youtu.be/IYSNjX5dPZA?si=qKYmDrtX4DZxXKMZ&t=262">Debug Karate test</a></li>
                 <li>Debug Java &amp; Karate in same session</li>
                 <li>Java debug session stops at Karate breakpoints</li>
-                <li><a href="#runasmock">Run as mock</a></li>
+                <li><a href="#run-as-mock">Run as mock</a></li>
                 <li>cURL import *</li>
                 <li>OpenAPI support *</li>
             </ul><i>&nbsp;&nbsp;&nbsp;&nbsp;[*] coming soon</i>
