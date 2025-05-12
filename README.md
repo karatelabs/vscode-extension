@@ -261,7 +261,7 @@ You can also start a normal Java debug session that uses the Karate `Runner` Jav
 
 ## Run as mock
 
-You can right click and run a `*.feature` file as a [Karate mock](https://github.com/karatelabs/karate/tree/master/karate-netty#server-life-cycle). You can also do this for the newer JavaScript mocks, so `*.js` files are also supported. Make sure that the file you are right-clicking on is a valid mock script.
+You can right click and run a `*.feature` file as a [Karate mock](https://github.com/karatelabs/karate/tree/master/karate-netty#server-life-cycle). You can also do this for the newer [JavaScript mocks](https://github.com/karatelabs/karate/wiki/Karate-JavaScript-Mocks), so `*.js` files are also supported. Make sure that the file you are right-clicking on is a valid mock script.
 
 <img src="resources/run-as-mock.jpg" height="350px"/>
 
