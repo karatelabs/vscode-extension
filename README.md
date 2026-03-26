@@ -1,7 +1,7 @@
 <table>
     <tr>
         <td>
-            <br/><a href="https://karatelabs.io"><img src="resources/karate-logo.svg" height="45px"/></a>
+            <br/><a href="https://karatelabs.io"><img src="resources/karate-logo.png" height="45px"/></a>
         </td>
         <td>
             <h2><br/>VS Code<br/>Extension</h2>
